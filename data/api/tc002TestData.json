@@ -1,0 +1,29 @@
+[
+  {
+    "testName": "SF_002 : TC002 - To Verify the user is able to Change the owner of the case",
+    "safetyIssueType": "Power Line",
+    "safetyIssueTypeDetails": "Buzzing",
+    "issueDescription": "Power Line Buzzing",
+    "circuit": "Hello",
+    "webEmail": "df1j@pge.com",
+    "region": "South Bay & Central Coast",
+    "photoIdentifiesAProblem": "Yes",
+    "safetyConcernViolation": "TBD more information required",
+    "pgeActionsToRemedyTheMatter": "Replaced pole",
+    "remedialDate": "05/21/2026",
+    "hftd": "Zone 1",
+    "safetyConcernAlreadyIdentifiedByPGE": true,
+    "priority1Tree": true,
+    "duplicativeNotification": "123456789",
+    "submissionValid": true,
+    "submissionInvalid": false,
+    "invalidReason": "",
+    "emergencyDescription": "",
+    "invalidSubmissionComments": "",
+    "moreInfoNeeded": false,
+    "moreInfoReason": "",
+    "resultedInSiteVisit": true,
+    "siteVisitApart": true,
+    "na": true
+  }
+]

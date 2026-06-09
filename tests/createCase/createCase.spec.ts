@@ -51,7 +51,6 @@ for (const data of caseData) {
     await expect(page.getByText(/now owns the record/i)).toBeVisible();
 
     console.log('✅ Case Object Field Values:');
-    console.log('✅ Form Values:');
     for (const [key, value] of myCase) {
       console.log(`→ ${key} = ${value}`);
     }

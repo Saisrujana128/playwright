@@ -1,0 +1,29 @@
+[
+  {
+    "testName": "SF_007 : TC007 - To Verify if the user is able to check the checkbox for submission Invalid",
+    "safetyIssueType": "Power Line",
+    "safetyIssueTypeDetails": "Buzzing",
+    "issueDescription": "Power Line Buzzing",
+    "circuit": "Hello",
+    "webEmail": "df1j@pge.com",
+    "region": "South Bay & Central Coast",
+    "photoIdentifiesAProblem": "Yes",
+    "safetyConcernViolation": "TBD more information required",
+    "pgeActionsToRemedyTheMatter": "Replaced pole",
+    "remedialDate": "05/21/2026",
+    "hftd": "Zone 1",
+    "safetyConcernAlreadyIdentifiedByPGE": true,
+    "priority1Tree": true,
+    "duplicativeNotification": "123456789",
+    "submissionValid": false,
+    "submissionInvalid": true,
+    "invalidReason": "Emergency",
+    "emergencyDescription": "Pole",
+    "invalidSubmissionComments": "Submission marked as invalid",
+    "moreInfoNeeded": false,
+    "moreInfoReason": "",
+    "resultedInSiteVisit": false,
+    "siteVisitApart": false,
+    "na": true
+  }
+]

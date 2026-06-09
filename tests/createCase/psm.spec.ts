@@ -1,6 +1,6 @@
 //npx playwright test --grep "@psm"
 //npx playwright test
-npx playwright test tests/createCase/psm.spec.ts  --workers=3 
+//npx playwright test tests/createCase/psm.spec.ts  --workers=3 
 //npx playwright test tests/createCase/psm.spec.ts
 //npx playwright show-report
 import { test, expect } from '../../page-objects/salesforce/salesforceFixture';
@@ -11,7 +11,7 @@ import caseData from '../../data/api/psmTestData.json';
 for (const data of caseData) {
 
   test(`${data.testName}  @psm`, async ({ page, loginPage, caseSearchPage, caseEditPage, caseObjectPage, psmEditPage }) => {
-
+    
     // ✅ Create case via API
     const caseNumber = await CaseService.createCase(
       new CasePayloadBuilder()
@@ -45,7 +45,7 @@ for (const data of caseData) {
     await caseObjectPage.clickPSMNotificationsLink();
     
     // Create PSM Notification
-    await psmEditPage.createPSMNotification();
+    await psmEditPage.createPSMNotification(data);
 
 
 });

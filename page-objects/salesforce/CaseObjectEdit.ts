@@ -1,7 +1,7 @@
 // sections/CasePage.ts
 import { expect, Page } from '@playwright/test';
 import BasePage from '../common/BasePage';
-import { CaseDataType } from '../../data/types/submission.types';
+import { CaseDataType } from '../../data/types/case.types';
 
 export class CaseEditPage extends BasePage{
   

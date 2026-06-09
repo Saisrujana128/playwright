@@ -1,0 +1,45 @@
+# Node modules
+node_modules/
+
+# Playwright report and test artifacts
+playwright-report/
+test-results/
+
+# Local env files
+.env
+.env.local
+
+# OS files
+.DS_Store
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
+# Ignore Allure results
+/allure-results/
+/allure-report/
+
+# Ignore report zip files
+/blob-report/report.zip
+
+# Config files for unused reporting tools
+reportportal.config.js
+testrail.config.js
+
+# Ignore screenshots and attachments
+*.png
+*.txt
+
+# Ignore test result JSON files
+test-result.json
+test-results/*.json
+allure-results/*.json
+playwright-report/data/*.png
+
+# Ignore backup files
+*.bak
+
+# Ignore test examples folder
+/tests-examples/
