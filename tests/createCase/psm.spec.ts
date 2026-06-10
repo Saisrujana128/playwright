@@ -11,7 +11,7 @@ import caseData from '../../data/api/psmTestData.json';
 for (const data of caseData) {
 
   test(`${data.testName}  @psm`, async ({ page, loginPage, caseSearchPage, caseEditPage, caseObjectPage, psmEditPage }) => {
-    
+
     // ✅ Create case via API
     const caseNumber = await CaseService.createCase(
       new CasePayloadBuilder()
@@ -45,7 +45,7 @@ for (const data of caseData) {
     await caseObjectPage.clickPSMNotificationsLink();
     
     // Create PSM Notification
-    await psmEditPage.createPSMNotification(data);
+    await psmEditPage.createPSMNotification();
 
 
 });
